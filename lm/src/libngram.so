@@ -1,0 +1,11 @@
+multi-ngram.o: multi-ngram.cc ../../include/option.h \
+ ../../include/cfuncproto.h ../../include/version.h ../../include/File.h \
+ ../../include/zio.h ../../include/zlib.h ../../include/zconf.h \
+ ../../include/Boolean.h Vocab.h ../../include/Boolean.h \
+ ../../include/LHash.h ../../include/Map.h ../../include/MemStats.h \
+ ../../include/SArray.h ../../include/Array.h ../../include/MemStats.h \
+ ../../include/TLSWrapper.h ../../include/tls.h Ngram.h LM.h Prob.h \
+ Counts.h XCount.h SubVocab.h TextStats.h ../../include/Debug.h \
+ NgramStats.h LMStats.h ../../include/Trie.h ../../include/LHash.h \
+ Discount.h MultiwordVocab.h ../../include/Array.cc ../../include/Array.h \
+ ../../include/LHash.cc ../../include/BlockMalloc.h

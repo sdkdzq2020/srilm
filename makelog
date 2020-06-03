@@ -1,0 +1,966 @@
+mkdir -p include lib bin
+make init
+make[1]: Entering directory `/data/lijieqiong/srilm-1.7.2'
+for subdir in misc dstruct lm flm lattice utils zlib; do \
+		(cd $subdir/src; make SRILM=/data/lijieqiong/srilm-1.7.2 MACHINE_TYPE=i686-m64 OPTION= MAKE_PIC= init) || exit 1; \
+	done
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/misc/src'
+cd ..; /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories: Permission denied
+make[2]: [init] Error 126 (ignored)
+make ../obj/i686-m64/STAMP ../bin/i686-m64/STAMP
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[3]: Entering directory `/data/lijieqiong/srilm-1.7.2/misc/src'
+make[3]: `../obj/i686-m64/STAMP' is up to date.
+make[3]: `../bin/i686-m64/STAMP' is up to date.
+make[3]: Leaving directory `/data/lijieqiong/srilm-1.7.2/misc/src'
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/misc/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/dstruct/src'
+cd ..; /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories: Permission denied
+make[2]: [init] Error 126 (ignored)
+make ../obj/i686-m64/STAMP ../bin/i686-m64/STAMP
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[3]: Entering directory `/data/lijieqiong/srilm-1.7.2/dstruct/src'
+make[3]: `../obj/i686-m64/STAMP' is up to date.
+make[3]: `../bin/i686-m64/STAMP' is up to date.
+make[3]: Leaving directory `/data/lijieqiong/srilm-1.7.2/dstruct/src'
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/dstruct/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/lm/src'
+cd ..; /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories: Permission denied
+make[2]: [init] Error 126 (ignored)
+make ../obj/i686-m64/STAMP ../bin/i686-m64/STAMP
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[3]: Entering directory `/data/lijieqiong/srilm-1.7.2/lm/src'
+make[3]: `../obj/i686-m64/STAMP' is up to date.
+make[3]: `../bin/i686-m64/STAMP' is up to date.
+make[3]: Leaving directory `/data/lijieqiong/srilm-1.7.2/lm/src'
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/lm/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/flm/src'
+cd ..; /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories: Permission denied
+make[2]: [init] Error 126 (ignored)
+make ../obj/i686-m64/STAMP ../bin/i686-m64/STAMP
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[3]: Entering directory `/data/lijieqiong/srilm-1.7.2/flm/src'
+make[3]: `../obj/i686-m64/STAMP' is up to date.
+make[3]: `../bin/i686-m64/STAMP' is up to date.
+make[3]: Leaving directory `/data/lijieqiong/srilm-1.7.2/flm/src'
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/flm/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/lattice/src'
+cd ..; /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories: Permission denied
+make[2]: [init] Error 126 (ignored)
+make ../obj/i686-m64/STAMP ../bin/i686-m64/STAMP
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[3]: Entering directory `/data/lijieqiong/srilm-1.7.2/lattice/src'
+make[3]: `../obj/i686-m64/STAMP' is up to date.
+make[3]: `../bin/i686-m64/STAMP' is up to date.
+make[3]: Leaving directory `/data/lijieqiong/srilm-1.7.2/lattice/src'
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/lattice/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/utils/src'
+cd ..; /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories: Permission denied
+make[2]: [init] Error 126 (ignored)
+make ../obj/i686-m64/STAMP ../bin/i686-m64/STAMP
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[3]: Entering directory `/data/lijieqiong/srilm-1.7.2/utils/src'
+make[3]: `../obj/i686-m64/STAMP' is up to date.
+make[3]: `../bin/i686-m64/STAMP' is up to date.
+make[3]: Leaving directory `/data/lijieqiong/srilm-1.7.2/utils/src'
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/utils/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/zlib/src'
+cd ..; /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/make-standard-directories: Permission denied
+make[2]: [init] Error 126 (ignored)
+make ../obj/i686-m64/STAMP ../bin/i686-m64/STAMP
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[3]: Entering directory `/data/lijieqiong/srilm-1.7.2/zlib/src'
+make[3]: `../obj/i686-m64/STAMP' is up to date.
+make[3]: `../bin/i686-m64/STAMP' is up to date.
+make[3]: Leaving directory `/data/lijieqiong/srilm-1.7.2/zlib/src'
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/zlib/src'
+make[1]: Leaving directory `/data/lijieqiong/srilm-1.7.2'
+make release-headers
+make[1]: Entering directory `/data/lijieqiong/srilm-1.7.2'
+for subdir in misc dstruct lm flm lattice utils zlib; do \
+		(cd $subdir/src; make SRILM=/data/lijieqiong/srilm-1.7.2 MACHINE_TYPE=i686-m64 OPTION= MAKE_PIC= release-headers) || exit 1; \
+	done
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/misc/src'
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 cfuncproto.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/cfuncproto.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 option.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/option.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 zio.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/zio.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 mkdir.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/mkdir.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Boolean.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Boolean.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Debug.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Debug.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 File.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/File.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 MStringTokUtil.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/MStringTokUtil.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 tls.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/tls.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 TLSWrapper.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/TLSWrapper.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 tserror.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/tserror.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 version.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/version.h] Error 127 (ignored)
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/misc/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/dstruct/src'
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Array.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Array.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 IntervalHeap.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/IntervalHeap.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 MemStats.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/MemStats.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Map.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Map.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 SArray.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/SArray.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 LHash.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/LHash.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Map2.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Map2.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Trie.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Trie.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 CachedMem.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/CachedMem.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 BlockMalloc.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/BlockMalloc.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 DStructThreads.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/DStructThreads.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Array.cc ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Array.cc] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 IntervalHeap.cc ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/IntervalHeap.cc] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Map.cc ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Map.cc] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 SArray.cc ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/SArray.cc] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 LHash.cc ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/LHash.cc] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Map2.cc ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Map2.cc] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Trie.cc ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Trie.cc] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 CachedMem.cc ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/CachedMem.cc] Error 127 (ignored)
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/dstruct/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/lm/src'
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Prob.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Prob.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Counts.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Counts.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 XCount.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/XCount.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Vocab.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Vocab.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 VocabMap.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/VocabMap.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 VocabMultiMap.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/VocabMultiMap.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 VocabDistance.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/VocabDistance.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 SubVocab.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/SubVocab.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 MultiwordVocab.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/MultiwordVocab.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 TextStats.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/TextStats.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 LM.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/LM.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 LMClient.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/LMClient.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 RemoteLM.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/RemoteLM.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 LMStats.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/LMStats.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 RefList.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/RefList.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Bleu.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Bleu.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 NBest.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/NBest.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 NBestSet.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/NBestSet.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Ngram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Ngram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 NgramStats.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/NgramStats.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 NgramProbArrayTrie.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/NgramProbArrayTrie.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 NgramCountLM.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/NgramCountLM.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 MSWebNgramLM.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/MSWebNgramLM.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Discount.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Discount.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 ClassNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/ClassNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 SimpleClassNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/SimpleClassNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 DFNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/DFNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 SkipNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/SkipNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 HiddenNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/HiddenNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 HiddenSNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/HiddenSNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 VarNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/VarNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 DecipherNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/DecipherNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 TaggedVocab.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/TaggedVocab.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 TaggedNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/TaggedNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 TaggedNgramStats.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/TaggedNgramStats.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 StopNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/StopNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 StopNgramStats.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/StopNgramStats.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 NullLM.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/NullLM.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 MultiwordLM.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/MultiwordLM.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 NonzeroLM.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/NonzeroLM.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 BayesMix.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/BayesMix.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 LoglinearMix.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/LoglinearMix.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 AdaptiveMix.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/AdaptiveMix.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 AdaptiveMarginals.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/AdaptiveMarginals.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 CacheLM.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/CacheLM.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 DynamicLM.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/DynamicLM.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 HMMofNgrams.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/HMMofNgrams.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Trellis.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Trellis.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 WordAlign.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/WordAlign.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 MultiAlign.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/MultiAlign.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 WordLattice.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/WordLattice.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 WordMesh.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/WordMesh.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 LMThreads.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/LMThreads.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 MEModel.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/MEModel.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 hmaxent.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/hmaxent.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 NgramStats.cc ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/NgramStats.cc] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Trellis.cc ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Trellis.cc] Error 127 (ignored)
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/lm/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/flm/src'
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 hexdec.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/hexdec.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 FDiscount.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/FDiscount.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 FNgramStats.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/FNgramStats.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 FNgramSpecs.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/FNgramSpecs.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 FactoredVocab.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/FactoredVocab.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 FNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/FNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 ProductVocab.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/ProductVocab.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 ProductNgram.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/ProductNgram.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 FLMThreads.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/FLMThreads.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 wmatrix.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/wmatrix.h] Error 127 (ignored)
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/flm/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/lattice/src'
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 Lattice.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/Lattice.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 HTKLattice.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/HTKLattice.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 LatticeThreads.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/LatticeThreads.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 LatticeLM.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/LatticeLM.h] Error 127 (ignored)
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/lattice/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/utils/src'
+make[2]: Nothing to be done for `release-headers'.
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/utils/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/zlib/src'
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 zlib.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/zlib.h] Error 127 (ignored)
+/data/lijieqiong/srilm-1.7.2/sbin/decipher-install -p 0444 zconf.h ../../include
+make[2]: execvp: /data/lijieqiong/srilm-1.7.2/sbin/decipher-install: Permission denied
+make[2]: [../../include/zconf.h] Error 127 (ignored)
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/zlib/src'
+make[1]: Leaving directory `/data/lijieqiong/srilm-1.7.2'
+make depend
+make[1]: Entering directory `/data/lijieqiong/srilm-1.7.2'
+for subdir in misc dstruct lm flm lattice utils zlib; do \
+		(cd $subdir/src; make SRILM=/data/lijieqiong/srilm-1.7.2 MACHINE_TYPE=i686-m64 OPTION= MAKE_PIC= depend) || exit 1; \
+	done
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/misc/src'
+rm -f Dependencies.i686-m64
+gcc -march=athlon64 -m64 -Wall -Wno-unused-variable -Wno-uninitialized -Wimplicit-int -fopenmp   -I. -I../../include -MM  ./option.c ./zio.c ./fcheck.c ./rand48.c ./version.c ./ztest.c | sed -e "s&^\([^ ]\)&../obj/i686-m64"'$(OBJ_OPTION)'"/\1&g" -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+g++ -march=athlon64 -m64 -Wall -Wno-unused-variable -Wno-uninitialized -DINSTANTIATE_TEMPLATES -fopenmp   -I. -I../../include -MM  ./Debug.cc ./File.cc ./MStringTokUtil.cc ./tls.cc ./tserror.cc ./testFile.cc ./testRand.cc | sed -e "s&^\([^ ]\)&../obj/i686-m64"'$(OBJ_OPTION)'"/\1&g" -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+./File.cc:23:20: fatal error: Array.cc: No such file or directory
+compilation terminated.
+/data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies ../bin/i686-m64 ../obj/i686-m64 "" ztest testFile testRand | sed -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies: Permission denied
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/misc/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/dstruct/src'
+rm -f Dependencies.i686-m64
+gcc -march=athlon64 -m64 -Wall -Wno-unused-variable -Wno-uninitialized -Wimplicit-int -fopenmp   -I. -I../../include -MM  ./qsort.c ./maxalloc.c | sed -e "s&^\([^ ]\)&../obj/i686-m64"'$(OBJ_OPTION)'"/\1&g" -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+./maxalloc.c:15:20: fatal error: option.h: No such file or directory
+compilation terminated.
+g++ -march=athlon64 -m64 -Wall -Wno-unused-variable -Wno-uninitialized -DINSTANTIATE_TEMPLATES -fopenmp   -I. -I../../include -MM  ./MemStats.cc ./LHashTrie.cc ./SArrayTrie.cc ./BlockMalloc.cc ./DStructThreads.cc ./Array.cc ./IntervalHeap.cc ./Map.cc ./SArray.cc ./LHash.cc ./Map2.cc ./Trie.cc ./CachedMem.cc ./testArray.cc ./testMap.cc ./testFloatMap.cc ./benchHash.cc ./testHash.cc ./testSizes.cc ./testCachedMem.cc ./testBlockMalloc.cc | sed -e "s&^\([^ ]\)&../obj/i686-m64"'$(OBJ_OPTION)'"/\1&g" -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+In file included from ./SArray.h:22:0,
+                 from ./Trie.h:124,
+                 from ./Trie.cc:27,
+                 from ./SArrayTrie.cc:17:
+./Map.h:64:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./BlockMalloc.cc:25:24: fatal error: TLSWrapper.h: No such file or directory
+compilation terminated.
+./DStructThreads.cc:13:21: fatal error: tserror.h: No such file or directory
+compilation terminated.
+In file included from ./Array.cc:19:0:
+./Array.h:16:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./IntervalHeap.cc:16:0:
+./IntervalHeap.h:47:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Map.cc:12:0:
+./Map.h:64:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./SArray.h:22:0,
+                 from ./SArray.cc:27:
+./Map.h:64:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./LHash.h:26:0,
+                 from ./LHash.cc:28:
+./Map.h:64:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./LHash.h:26:0,
+                 from ./Map2.h:85,
+                 from ./Map2.cc:27:
+./Map.h:64:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./LHash.h:26:0,
+                 from ./Trie.h:130,
+                 from ./Trie.cc:27:
+./Map.h:64:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./CachedMem.cc:15:0:
+./CachedMem.h:14:24: fatal error: TLSWrapper.h: No such file or directory
+compilation terminated.
+In file included from ./Array.cc:19:0,
+                 from ./testArray.cc:17:
+./Array.h:16:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./SArray.h:22:0,
+                 from ./testMap.cc:22:
+./Map.h:64:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./SArray.h:22:0,
+                 from ./testFloatMap.cc:22:
+./Map.h:64:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./benchHash.cc:16:20: fatal error: option.h: No such file or directory
+compilation terminated.
+In file included from ./LHash.h:26:0,
+                 from ./LHash.cc:28,
+                 from ./testHash.cc:18:
+./Map.h:64:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./LHash.h:26:0,
+                 from ./Trie.h:130,
+                 from ./Trie.cc:27,
+                 from ./testSizes.cc:4:
+./Map.h:64:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./CachedMem.cc:15:0,
+                 from ./testCachedMem.cc:2:
+./CachedMem.h:14:24: fatal error: TLSWrapper.h: No such file or directory
+compilation terminated.
+/data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies ../bin/i686-m64 ../obj/i686-m64 "" maxalloc testArray testMap testFloatMap benchHash testHash testSizes testCachedMem testBlockMalloc | sed -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies: Permission denied
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/dstruct/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/lm/src'
+rm -f Dependencies.i686-m64
+gcc -march=athlon64 -m64 -Wall -Wno-unused-variable -Wno-uninitialized -Wimplicit-int -fopenmp   -I. -I../../include -MM  ./matherr.c | sed -e "s&^\([^ ]\)&../obj/i686-m64"'$(OBJ_OPTION)'"/\1&g" -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+g++ -march=athlon64 -m64 -Wall -Wno-unused-variable -Wno-uninitialized -DINSTANTIATE_TEMPLATES -fopenmp   -I. -I../../include -MM  ./Prob.cc ./Counts.cc ./XCount.cc ./Vocab.cc ./VocabMap.cc ./VocabMultiMap.cc ./VocabDistance.cc ./SubVocab.cc ./MultiwordVocab.cc ./TextStats.cc ./LM.cc ./LMClient.cc ./LMStats.cc ./RefList.cc ./Bleu.cc ./NBest.cc ./NBestSet.cc ./NgramLM.cc ./NgramStatsInt.cc ./NgramStatsShort.cc ./NgramStatsLong.cc ./NgramStatsLongLong.cc ./NgramStatsFloat.cc ./NgramStatsDouble.cc ./NgramStatsXCount.cc ./NgramProbArrayTrie.cc ./NgramCountLM.cc ./MSWebNgramLM.cc ./Discount.cc ./ClassNgram.cc ./SimpleClassNgram.cc ./DFNgram.cc ./SkipNgram.cc ./HiddenNgram.cc ./HiddenSNgram.cc ./VarNgram.cc ./DecipherNgram.cc ./TaggedVocab.cc ./TaggedNgram.cc ./TaggedNgramStats.cc ./StopNgram.cc ./StopNgramStats.cc ./MultiwordLM.cc ./NonzeroLM.cc ./BayesMix.cc ./LoglinearMix.cc ./AdaptiveMix.cc ./AdaptiveMarginals.cc ./CacheLM.cc ./DynamicLM.cc ./HMMofNgrams.cc ./WordAlign.cc ./WordLattice.cc ./WordMesh.cc ./simpleTrigram.cc ./LMThreads.cc ./MEModel.cc ./hmaxent.cc ./NgramStats.cc ./Trellis.cc ./testBinaryCounts.cc ./testHash.cc ./testProb.cc ./testQuantized.cc ./testXCount.cc ./testParseFloat.cc ./testVocabDistance.cc ./testNgram.cc ./testNgramAlloc.cc ./testNgramProbArrayTrie.cc ./testMultiReadLM.cc ./hoeffding.cc ./tolower.cc ./testLattice.cc ./testError.cc ./testNBest.cc ./testMix.cc ./ngram.cc ./ngram-count.cc ./ngram-merge.cc ./ngram-class.cc ./disambig.cc ./anti-ngram.cc ./nbest-lattice.cc ./nbest-mix.cc ./nbest-optimize.cc ./nbest-pron-score.cc ./segment.cc ./segment-nbest.cc ./hidden-ngram.cc ./multi-ngram.cc | sed -e "s&^\([^ ]\)&../obj/i686-m64"'$(OBJ_OPTION)'"/\1&g" -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+In file included from ./Prob.cc:19:0:
+./Prob.h:19:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./Counts.cc:21:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./XCount.cc:16:0:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./Vocab.cc:22:18: fatal error: File.h: No such file or directory
+compilation terminated.
+In file included from ./VocabMap.cc:22:0:
+./VocabMap.h:14:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./VocabMultiMap.cc:23:0:
+./VocabMultiMap.h:15:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./VocabDistance.h:14:0,
+                 from ./VocabDistance.cc:12:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./SubVocab.h:14:0,
+                 from ./SubVocab.cc:22:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./MultiwordVocab.h:18:0,
+                 from ./MultiwordVocab.cc:16:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./TextStats.h:24:0,
+                 from ./TextStats.cc:12:
+./Prob.h:19:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./LM.cc:18:24: fatal error: TLSWrapper.h: No such file or directory
+compilation terminated.
+./LMClient.cc:27:21: fatal error: tserror.h: No such file or directory
+compilation terminated.
+./LMStats.cc:20:18: fatal error: File.h: No such file or directory
+compilation terminated.
+In file included from ./RefList.cc:23:0:
+./RefList.h:21:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NBest.cc:23:0:
+./NBest.h:21:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NBestSet.cc:22:0:
+./NBestSet.h:22:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./NgramLM.cc:31:21: fatal error: tserror.h: No such file or directory
+compilation terminated.
+In file included from ./NgramStats.h:16:0,
+                 from ./NgramStats.cc:30,
+                 from ./NgramStatsInt.cc:11:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramStats.h:16:0,
+                 from ./NgramStats.cc:30,
+                 from ./NgramStatsShort.cc:11:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramStats.h:16:0,
+                 from ./NgramStats.cc:30,
+                 from ./NgramStatsLong.cc:11:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramStats.h:16:0,
+                 from ./NgramStats.cc:30,
+                 from ./NgramStatsLongLong.cc:11:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramStats.h:16:0,
+                 from ./NgramStats.cc:30,
+                 from ./NgramStatsFloat.cc:11:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramStats.h:16:0,
+                 from ./NgramStats.cc:30,
+                 from ./NgramStatsDouble.cc:11:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramStatsXCount.cc:11:0:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramProbArrayTrie.h:16:0,
+                 from ./NgramProbArrayTrie.cc:25:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramCountLM.h:16:0,
+                 from ./NgramCountLM.cc:29:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./MSWebNgramLM.cc:29:21: fatal error: tserror.h: No such file or directory
+compilation terminated.
+In file included from ./Discount.cc:14:0:
+./Prob.h:19:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Ngram.h:16:0,
+                 from ./ClassNgram.h:16,
+                 from ./ClassNgram.cc:19:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Ngram.h:16:0,
+                 from ./ClassNgram.h:16,
+                 from ./SimpleClassNgram.h:16,
+                 from ./SimpleClassNgram.cc:19:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Ngram.h:16:0,
+                 from ./DFNgram.h:16,
+                 from ./DFNgram.cc:20:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Ngram.h:16:0,
+                 from ./SkipNgram.h:15,
+                 from ./SkipNgram.cc:21:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./HiddenNgram.cc:19:20: fatal error: option.h: No such file or directory
+compilation terminated.
+In file included from ./HiddenSNgram.h:15:0,
+                 from ./HiddenSNgram.cc:20:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Ngram.h:16:0,
+                 from ./VarNgram.h:16,
+                 from ./VarNgram.cc:21:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Ngram.h:16:0,
+                 from ./DecipherNgram.h:16,
+                 from ./DecipherNgram.cc:20:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./TaggedVocab.h:18:0,
+                 from ./TaggedVocab.cc:21:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Ngram.h:16:0,
+                 from ./TaggedNgram.h:14,
+                 from ./TaggedNgram.cc:12:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramStats.h:16:0,
+                 from ./TaggedNgramStats.h:14,
+                 from ./TaggedNgramStats.cc:20:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Ngram.h:16:0,
+                 from ./StopNgram.h:14,
+                 from ./StopNgram.cc:12:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramStats.h:16:0,
+                 from ./StopNgramStats.h:14,
+                 from ./StopNgramStats.cc:20:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./MultiwordLM.h:21:0,
+                 from ./MultiwordLM.cc:14:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NonzeroLM.h:16:0,
+                 from ./NonzeroLM.cc:14:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./BayesMix.cc:23:20: fatal error: option.h: No such file or directory
+compilation terminated.
+In file included from ./LoglinearMix.h:14:0,
+                 from ./LoglinearMix.cc:22:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./AdaptiveMix.h:14:0,
+                 from ./AdaptiveMix.cc:22:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./AdaptiveMarginals.h:14:0,
+                 from ./AdaptiveMarginals.cc:21:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./CacheLM.h:18:0,
+                 from ./CacheLM.cc:21:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./DynamicLM.cc:16:18: fatal error: File.h: No such file or directory
+compilation terminated.
+In file included from ./HMMofNgrams.h:19:0,
+                 from ./HMMofNgrams.cc:20:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./WordAlign.cc:14:24: fatal error: TLSWrapper.h: No such file or directory
+compilation terminated.
+In file included from ./MultiAlign.h:17:0,
+                 from ./WordLattice.h:14,
+                 from ./WordLattice.cc:17:
+./NBest.h:21:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./MultiAlign.h:17:0,
+                 from ./WordMesh.h:17,
+                 from ./WordMesh.cc:16:
+./NBest.h:21:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./simpleTrigram.cc:18:18: fatal error: File.h: No such file or directory
+compilation terminated.
+In file included from ./LMThreads.cc:12:0:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./MEModel.cc:17:18: fatal error: Trie.h: No such file or directory
+compilation terminated.
+In file included from ./hmaxent.cc:42:0:
+./Prob.h:19:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramStats.h:16:0,
+                 from ./NgramStats.cc:30:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Trellis.cc:26:0:
+./Trellis.h:23:19: fatal error: LHash.h: No such file or directory
+compilation terminated.
+./testBinaryCounts.cc:19:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./testHash.cc:18:18: fatal error: File.h: No such file or directory
+compilation terminated.
+In file included from ./testProb.cc:23:0:
+./Prob.h:19:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./testQuantized.cc:13:18: fatal error: File.h: No such file or directory
+compilation terminated.
+In file included from ./testXCount.cc:19:0:
+./XCount.h:25:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./testParseFloat.cc:21:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./testVocabDistance.cc:10:18: fatal error: File.h: No such file or directory
+compilation terminated.
+In file included from ./Ngram.h:16:0,
+                 from ./testNgram.cc:13:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./testNgramAlloc.cc:5:0:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./NgramProbArrayTrie.h:16:0,
+                 from ./testNgramProbArrayTrie.cc:13:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./Ngram.h:16:0,
+                 from ./testMultiReadLM.cc:13:
+./LM.h:24:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./testLattice.cc:13:0:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./testError.cc:13:0:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./testNBest.cc:13:0:
+./Vocab.h:95:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+In file included from ./testMix.cc:17:0:
+./Prob.h:19:21: fatal error: Boolean.h: No such file or directory
+compilation terminated.
+./ngram.cc:37:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./ngram-count.cc:22:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./ngram-merge.cc:24:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./ngram-class.cc:22:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./disambig.cc:22:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./anti-ngram.cc:21:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./nbest-lattice.cc:18:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./nbest-mix.cc:17:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./nbest-optimize.cc:47:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./nbest-pron-score.cc:17:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./segment.cc:22:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./segment-nbest.cc:23:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./hidden-ngram.cc:24:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./multi-ngram.cc:24:20: fatal error: option.h: No such file or directory
+compilation terminated.
+/data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies ../bin/i686-m64 ../obj/i686-m64 "" testBinaryCounts testHash testProb testQuantized testXCount testParseFloat testVocabDistance testNgram testNgramAlloc testNgramProbArrayTrie testMultiReadLM hoeffding tolower testLattice testError testNBest testMix ngram ngram-count ngram-merge ngram-class disambig anti-ngram nbest-lattice nbest-mix nbest-optimize nbest-pron-score segment segment-nbest hidden-ngram multi-ngram | sed -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies: Permission denied
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/lm/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/flm/src'
+rm -f Dependencies.i686-m64
+g++ -march=athlon64 -m64 -Wall -Wno-unused-variable -Wno-uninitialized -DINSTANTIATE_TEMPLATES -fopenmp   -I. -I../../include -MM  ./FDiscount.cc ./FNgramStats.cc ./FNgramStatsInt.cc ./FNgramSpecs.cc ./FNgramSpecsInt.cc ./FactoredVocab.cc ./FNgramLM.cc ./ProductVocab.cc ./ProductNgram.cc ./FLMThreads.cc ./strtolplusb.cc ./wmatrix.cc ./pngram.cc ./fngram-count.cc ./fngram.cc | sed -e "s&^\([^ ]\)&../obj/i686-m64"'$(OBJ_OPTION)'"/\1&g" -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+In file included from ./FDiscount.cc:22:0:
+./FDiscount.h:18:22: fatal error: Discount.h: No such file or directory
+compilation terminated.
+In file included from ./FNgramStats.cc:27:0:
+./FNgramStats.h:20:24: fatal error: TLSWrapper.h: No such file or directory
+compilation terminated.
+In file included from ./FNgramStats.cc:27:0,
+                 from ./FNgramStatsInt.cc:11:
+./FNgramStats.h:20:24: fatal error: TLSWrapper.h: No such file or directory
+compilation terminated.
+In file included from ./FNgramSpecs.cc:25:0:
+./FNgram.h:20:16: fatal error: LM.h: No such file or directory
+compilation terminated.
+In file included from ./FNgramSpecs.cc:25:0,
+                 from ./FNgramSpecsInt.cc:11:
+./FNgram.h:20:16: fatal error: LM.h: No such file or directory
+compilation terminated.
+./FactoredVocab.cc:26:18: fatal error: File.h: No such file or directory
+compilation terminated.
+In file included from ./FNgramLM.cc:26:0:
+./FNgram.h:20:16: fatal error: LM.h: No such file or directory
+compilation terminated.
+In file included from ./ProductVocab.cc:21:0:
+./FNgramStats.h:20:24: fatal error: TLSWrapper.h: No such file or directory
+compilation terminated.
+In file included from ./ProductNgram.cc:13:0:
+./ProductNgram.h:16:19: fatal error: Ngram.h: No such file or directory
+compilation terminated.
+./FLMThreads.cc:11:23: fatal error: LMThreads.h: No such file or directory
+compilation terminated.
+./wmatrix.cc:21:19: fatal error: Trie.cc: No such file or directory
+compilation terminated.
+In file included from ./pngram.cc:12:0:
+./../../lm/src/ngram.cc:37:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./fngram-count.cc:26:20: fatal error: option.h: No such file or directory
+compilation terminated.
+./fngram.cc:33:20: fatal error: option.h: No such file or directory
+compilation terminated.
+/data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies ../bin/i686-m64 ../obj/i686-m64 "" pngram fngram-count fngram  | sed -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies: Permission denied
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/flm/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/lattice/src'
+rm -f Dependencies.i686-m64
+g++ -march=athlon64 -m64 -Wall -Wno-unused-variable -Wno-uninitialized -DINSTANTIATE_TEMPLATES -fopenmp   -I. -I../../include -MM  ./Lattice.cc ./LatticeAlign.cc ./LatticeExpand.cc ./LatticeIndex.cc ./LatticeNBest.cc ./LatticeNgrams.cc ./LatticeReduce.cc ./HTKLattice.cc ./LatticeLM.cc ./LatticeThreads.cc ./LatticeDecode.cc ./testLattice.cc ./lattice-tool.cc | sed -e "s&^\([^ ]\)&../obj/i686-m64"'$(OBJ_OPTION)'"/\1&g" -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+In file included from ./Lattice.cc:19:0:
+./Lattice.h:19:18: fatal error: Prob.h: No such file or directory
+compilation terminated.
+In file included from ./LatticeAlign.cc:20:0:
+./Lattice.h:19:18: fatal error: Prob.h: No such file or directory
+compilation terminated.
+In file included from ./LatticeExpand.cc:17:0:
+./Lattice.h:19:18: fatal error: Prob.h: No such file or directory
+compilation terminated.
+In file included from ./LatticeIndex.cc:17:0:
+./Lattice.h:19:18: fatal error: Prob.h: No such file or directory
+compilation terminated.
+In file included from ./LatticeNBest.cc:20:0:
+./Lattice.h:19:18: fatal error: Prob.h: No such file or directory
+compilation terminated.
+In file included from ./LatticeNgrams.cc:17:0:
+./Lattice.h:19:18: fatal error: Prob.h: No such file or directory
+compilation terminated.
+In file included from ./LatticeReduce.cc:17:0:
+./Lattice.h:19:18: fatal error: Prob.h: No such file or directory
+compilation terminated.
+./HTKLattice.cc:24:18: fatal error: Prob.h: No such file or directory
+compilation terminated.
+In file included from ./LatticeLM.cc:13:0:
+./LatticeLM.h:16:16: fatal error: LM.h: No such file or directory
+compilation terminated.
+In file included from ./LatticeThreads.cc:12:0:
+./Lattice.h:19:18: fatal error: Prob.h: No such file or directory
+compilation terminated.
+In file included from ./LatticeDecode.cc:19:0:
+./Lattice.h:19:18: fatal error: Prob.h: No such file or directory
+compilation terminated.
+./testLattice.cc:13:19: fatal error: Vocab.h: No such file or directory
+compilation terminated.
+./lattice-tool.cc:32:20: fatal error: option.h: No such file or directory
+compilation terminated.
+/data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies ../bin/i686-m64 ../obj/i686-m64 "" testLattice  lattice-tool | sed -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies: Permission denied
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/lattice/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/utils/src'
+rm -f Dependencies.i686-m64
+/data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies ../bin/i686-m64 ../obj/i686-m64 ""  | sed -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies: Permission denied
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/utils/src'
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/zlib/src'
+rm -f Dependencies.i686-m64
+gcc -march=athlon64 -m64 -Wall -Wno-unused-variable -Wno-uninitialized -Wimplicit-int -fopenmp   -I. -I../../include -MM  ./adler32.c ./crc32.c ./gzclose.c ./gzread.c ./infback.c ./inflate.c ./trees.c ./zutil.c ./compress.c ./deflate.c ./gzlib.c ./gzwrite.c ./inffast.c ./inftrees.c ./uncompr.c ./minigzip.c | sed -e "s&^\([^ ]\)&../obj/i686-m64"'$(OBJ_OPTION)'"/\1&g" -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies ../bin/i686-m64 ../obj/i686-m64 "" minigzip | sed -e "s&\.o&.o&g" >> Dependencies.i686-m64
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: /data/lijieqiong/srilm-1.7.2/sbin/generate-program-dependencies: Permission denied
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/zlib/src'
+make[1]: Leaving directory `/data/lijieqiong/srilm-1.7.2'
+make release-libraries
+make[1]: Entering directory `/data/lijieqiong/srilm-1.7.2'
+for subdir in misc dstruct lm flm lattice utils zlib; do \
+		(cd $subdir/src; make SRILM=/data/lijieqiong/srilm-1.7.2 MACHINE_TYPE=i686-m64 OPTION= MAKE_PIC= release-libraries) || exit 1; \
+	done
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (zh_CN.GBK)
+make[2]: Entering directory `/data/lijieqiong/srilm-1.7.2/misc/src'
+g++ -march=athlon64 -m64 -Wall -Wno-unused-variable -Wno-uninitialized -DINSTANTIATE_TEMPLATES -fopenmp   -I. -I../../include   -c -g -O3  -o ../obj/i686-m64/File.o File.cc
+File.cc:23:20: fatal error: Array.cc: No such file or directory
+compilation terminated.
+make[2]: *** [../obj/i686-m64/File.o] Error 1
+make[2]: Leaving directory `/data/lijieqiong/srilm-1.7.2/misc/src'
+make[1]: *** [release-libraries] Error 1
+make[1]: Leaving directory `/data/lijieqiong/srilm-1.7.2'
+make: *** [World] Error 2
